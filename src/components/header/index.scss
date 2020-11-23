@@ -1,0 +1,14 @@
+.header{
+    width: 100%;
+    min-width: 1240px;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 0 1px 0 #ddd;
+    z-index: 1000;
+
+    .header-inner {
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+    }
+}

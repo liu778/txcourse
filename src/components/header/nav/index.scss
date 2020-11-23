@@ -1,0 +1,23 @@
+.header-nav{
+    display: inline-block;
+    margin-left: 50px;
+    .nav-item {
+        float: left;
+        height: 80px;
+        margin-right: 60px;
+        line-height: 80px;
+        text-align: center;
+
+
+        .nav-item-lk {
+            font-size: 18px;
+            transition: .4s color ease-in-out;
+            &:hover{
+                color: #167ed9;
+            }
+        }
+    }
+
+
+}
+

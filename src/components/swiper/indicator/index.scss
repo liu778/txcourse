@@ -1,0 +1,15 @@
+.indicator-item{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, .6);
+    margin-right: 5px;
+    background-color: transparent;
+
+    &.indicatorFocus {
+        background-color: #fff;
+        border-color: #fff;;
+    }
+}
+

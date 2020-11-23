@@ -1,0 +1,22 @@
+.swiper{
+    width: 1200px;
+    height: 360px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+
+    .swiper-list{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .indicator {
+        position: absolute;
+        width: 20%;
+        right: 25px;
+        bottom: 15px;
+        text-align: right;
+        z-index: 2;
+    }
+}
